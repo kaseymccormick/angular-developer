@@ -1,0 +1,33 @@
+<div class="header-container" [class.left]="position === 'normal'" [class.right]="position === 'inverse'">
+  <div class="logo-containter">
+    <a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>
+    <div class="logo" (click)="goToHome()">CTC<span> Work For Us! </span></div>
+  </div>
+  <!-- <ngx-theme-switcher></ngx-theme-switcher> -->
+</div>
+
+<div class="header-container">
+  <!-- <ngx-layout-direction-switcher></ngx-layout-direction-switcher> -->
+  <nb-actions size="medium" [class.right]="position === 'normal'" [class.left]="position === 'inverse'">
+    <!-- <nb-action icon="nb-gear" class="toggle-layout" (click)="toggleSettings()"></nb-action> -->
+    <!--<nb=action *nbIsGranted="['view', 'user']"> -->
+    <nb-action>
+      <!-- <nb-user size="large"
+      title="Engineer"
+      badgeText="99+"
+      badgeStatus="success"
+      badgePosition="bottom right" [nbContextMenu]="userMenu" [name]="user.first_name" [picture]="picture">
+    </nb-user> -->
+      <nb-user [nbContextMenu]="userMenu" nbContextMenuTag="user-header" [name]="name" [picture]="picture">
+      </nb-user>
+    </nb-action>
+    <!-- <nb-action icon="nb-lightbulb"></nb-action> -->
+    <nb-action *ngIf="notificationMenu" [badgeText]="notifications" badgeStatus="info" [nbContextMenu]="notificationMenu"
+      nbContextMenuTag="notification-header" class="control-item" icon="nb-notifications"></nb-action>
+    <nb-action *ngIf="!notificationMenu" class="control-item" icon="nb-notifications"></nb-action>
+    <!-- <nb-action class="control-item" icon="nb-email"></nb-action> -->
+    <nb-action class="control-item">
+      <nb-search type="rotate-layout" (click)="startSearch()"></nb-search>
+    </nb-action>
+  </nb-actions>
+</div>
