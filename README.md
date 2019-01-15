@@ -1,24 +1,24 @@
-##We Are Hiring!!:
+## We Are Hiring!!:
 Thank you for visiting our application repo for an angular developer! We will make this repo private once the position has been filled. So if you are here, we are hiring! 
 
 More detailed instructions are below along with the discription.
 
-##Position:
+## Position:
 Front End Developer / Angular Developer
  
-##Salary Grade:
+## Salary Grade:
 Jr – Mid Level Developer
  
-##Location:
+## Location:
 Boise, ID or Omaha, NE
  
-##Reports to:
+## Reports to:
 Director Software Engineering – Rob Stadnick
  
-##Date Available
+## Date Available
 Immediate
  
-##JOB DESCRIPTION:
+## JOB DESCRIPTION:
  
 Summary/Objective:
 We a seeking a Front-End Developer to join our team in the continued development of multiple Angular 7+ applications. This position will invite qualified candidates to take ownership in the design, features, and branding of these applications.
@@ -27,27 +27,27 @@ Our team is developing leading technologies in our industry and is very fast mov
 
 While we are only looking for Front-End Developer, you will have exposure to our entire application stack and have multiple opportunities to expand your developing skills.
  
-##Application Stack:
+## Application Stack:
       Angular + Typescript, Node, Express, PostgreSQL, MSSQL, Quickbase, MongoDB, Alexa for Business
 
-##Team Mantra:
+## Team Mantra:
         	If I as a human understand how to manually solve a problem, I am confident I can program a computer to solve the same problem. It may take many hours and a lot of research, but I am confident that if I understand it, I can code it and make it look good.
  
-##Essential Functions
+## Essential Functions
 1.     Use basic CLI functions. ( Basic Shell, AWS, Heroku, Angular, NPM)
 2.     Need to Know: Github, HTML, CSS/SCSS
 3.     Kinda Need to Know: Angular 6+, RXJS
 4.     Nice to Know: AWS, Heroku, MongoDB, Slack, Intercom, Quickbase
 
 
-##Competencies
+## Competencies
 1.     Problem Solving/Analysis.
 2.     Technical Capacity.
 3.     Communication Proficiency.
 4.     Time Management.
  
  
-##Work Environment:
+## Work Environment:
 This job operates in a professional office environment. This role routinely
 uses standard office equipment such as computers, phones, photocopiers,
 filing cabinets and fax machines.
@@ -56,7 +56,7 @@ You will be provide with a machine and workstation. You will be able to select b
  
 Position can allow for flexible remote/office.
  
-##Physical Demands:
+## Physical Demands:
 The physical demands described here are representative of those that must
 be met by an employee to successfully perform the essential functions of
 this job.
@@ -69,7 +69,7 @@ Position Type/Expected Hours of Work:
 We have part-time and full-time position. Days and hours of work are Monday through
 Friday with flexible project hours and dedicated training hours.
  
-##Required Education and Experience In Order of Importance:
+## Required Education and Experience In Order of Importance:
  
 1.     Understanding of application basics. (Front, Back, Database)
 2.     API’s / Http Request Methods (RXJS).
@@ -77,7 +77,7 @@ Friday with flexible project hours and dedicated training hours.
 4.     Basic understanding of Github and Version Control.
 5.     Basic use of HTML and Bootstrap/CSS.
 
-##What is the repo all about?
+## What is the repo all about?
 
 We created this to be an easy and practical way to apply for a position with us. We are hiring someone with a skill set we need. This repo has an application with instructions. If you know how to (or even if you can figure out how as a JR dev), fork and run this application, read the instructions, complete 3 small tasks to demonstrate your competency, then finally push it to your github, your application will be further processed.
 
