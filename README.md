@@ -66,8 +66,8 @@ talk or hear. The employee frequently is required to stand; walk; use hands
 to finger, handle or feel; and reach with hands and arms.
  
 Position Type/Expected Hours of Work:
-We have part-time and full-time position. Days and hours of work are Monday through
-Friday with flexible project hours and dedicated training hours.
+We are currently hiring full-time positions. Days and hours of work are Monday through
+Friday with flexible project hours.
  
 ## Required Education and Experience In Order of Importance:
  
