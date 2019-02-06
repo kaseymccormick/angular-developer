@@ -12,16 +12,16 @@ const routes: Routes = [{
   children: [{
     path: 'dashboard',
     component: ECommerceComponent,
-  }, 
+  },
   {
     path: 'miscellaneous',
     loadChildren: './miscellaneous/miscellaneous.module#MiscellaneousModule',
-  }, 
+  },
   {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  }, 
+  },
   {
     path: '**',
     component: NotFoundComponent,

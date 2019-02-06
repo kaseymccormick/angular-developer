@@ -61,8 +61,8 @@ const PAGES_COMPONENTS = [
     NbDatepickerModule,
     NbAccordionModule,
     NbBadgeModule,
-  ]
+  ],
 })
 export class NbComponentsModule {
-  
+  //  empty
 }
