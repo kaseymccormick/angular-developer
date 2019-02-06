@@ -88,3 +88,8 @@ Set one is to follow this link <INSERT THE LINK> to fill out our formal applicat
 3.     View the application in your Browser.
 4.     Read the instructions and complete the three tasks.
 5.     Update your repo and email us with a link to the repo once you are satisfied with your work!
+
+## possible resources - found
+1. http://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tutorial
+2. https://medium.com/@MetonymyQT/angular-http-interceptors-what-are-they-and-how-to-use-them-52e060321088
+3. 
