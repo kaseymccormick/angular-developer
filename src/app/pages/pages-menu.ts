@@ -16,7 +16,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     group: true,
   },
-  //YOU CAN USE THIS FOR TASK TWO IF YOU LIKE!!
+  // YOU CAN USE THIS FOR TASK TWO IF YOU LIKE!!
   // {
   //   title: 'Extra Components',
   //   icon: 'nb-star',
