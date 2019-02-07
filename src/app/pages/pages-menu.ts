@@ -3,14 +3,24 @@ import { NbMenuItem } from '@nebular/theme';
 export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Dashboard',
-    icon: 'nb-e-commerce',
+    icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
   },
   {
-    title: 'Task 2 - Like This',
-    icon: 'nb-home',
-    link: '/pages/iot-dashboard',
+    title: 'Charts',
+    icon: 'nb-bar-chart',
+    link: '/pages/charts',
+  },
+  {
+    title: 'Calendar',
+    icon: 'nb-layout-centre',
+    link: '/pages/extra-components/calendar',
+  },
+  {
+    title: 'Alert',
+    icon: 'nb-alert',
+    link: '/pages/extra-components/alert',
   },
   {
     title: 'FEATURES',
@@ -21,10 +31,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   title: 'Extra Components',
   //   icon: 'nb-star',
   //   children: [
-  //     {
-  //       title: 'Calendar',
-  //       link: '/pages/extra-components/calendar',
-  //     },
   //     {
   //       title: 'Stepper',
   //       link: '/pages/extra-components/stepper',
@@ -48,10 +54,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //     {
   //       title: 'Spinner',
   //       link: '/pages/extra-components/spinner',
-  //     },
-  //     {
-  //       title: 'Alert',
-  //       link: '/pages/extra-components/alert',
   //     },
   //     {
   //       title: 'Tree',
