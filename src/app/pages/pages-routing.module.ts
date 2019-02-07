@@ -2,10 +2,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+// import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
-import { ChartPanelHeaderComponent } from './e-commerce/charts-panel/chart-panel-header/chart-panel-header.component';
 import { ECommerceChartsPanelComponent } from './e-commerce/charts-panel/charts-panel.component';
 
 const routes: Routes = [{
