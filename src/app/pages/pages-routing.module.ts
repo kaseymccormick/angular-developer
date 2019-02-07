@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { ECommerceChartsPanelComponent } from './e-commerce/charts-panel/charts-panel.component';
+import { NbCalendarComponent } from '@nebular/theme';
 
 const routes: Routes = [{
   path: '',
@@ -21,6 +22,10 @@ const routes: Routes = [{
   {
     path: 'miscellaneous',
     loadChildren: './miscellaneous/miscellaneous.module#MiscellaneousModule',
+  },
+  {
+    path: 'extra-components/calendar',
+    component: NbCalendarComponent,
   },
   {
     path: '',

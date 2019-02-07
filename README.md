@@ -83,13 +83,24 @@ We created this to be an easy and practical way to apply for a position with us.
 
 Set one is to follow this link <INSERT THE LINK> to fill out our formal application. You will be contacted once we recieve your application. The email we send you will include the instructions for completing the next steps. You can feel free to get a head start if you like but you will not be able to submit your repo URL until we have given you the contact email for that step of the application.
 
-1.     Fork This Repo.
-2.     Run The Application with the Angular CLI (ng serve).
-3.     View the application in your Browser.
-4.     Read the instructions and complete the three tasks.
+1.     Fork This Repo. *done*
+2.     Run The Application with the Angular CLI (ng serve).*done after updates*
+3.     View the application in your Browser. *done*
+4.     Read the instructions and complete the three tasks. *in progress*
 5.     Update your repo and email us with a link to the repo once you are satisfied with your work!
 
 ## possible resources - found
 1. http://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tutorial
 2. https://medium.com/@MetonymyQT/angular-http-interceptors-what-are-they-and-how-to-use-them-52e060321088
 3. 
+
+## Tasks
+1. Task One! Interceptor – Using this ['src/app/@core/auth'] path, create an interceptor that injects a fake JWT. 
+2. Task Two! Menu/Module/Component – Dig through the app folders to find the menu. Add a new menu item.
+Create a module, add it to routing. Create a component and put anything you like there! Impress us with the use of Pipes, Services, and other Angular Framework tools. Testing too please! We are looking for design skills so show off those styles.
+3. Task Three!
+Clean Up
+1. Reorganize and clear up this application for production.
+2. Start by renaming "e-commerce" to dashboard.
+3. Our team allows you to take ownership of your application and work. Show us how you make your application neat and scalable.
+
