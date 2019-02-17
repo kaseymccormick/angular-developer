@@ -7,7 +7,8 @@ import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { ECommerceChartsPanelComponent } from './e-commerce/charts-panel/charts-panel.component';
 import { NbCalendarComponent } from '@nebular/theme';
-import { SignupComponent } from '../auth/signup/signup.component';
+// import { SignupComponent } from '../auth/signup/signup.component';
+
 
 const routes: Routes = [{
   path: '',
@@ -28,10 +29,10 @@ const routes: Routes = [{
     path: 'extra-components/calendar',
     component: NbCalendarComponent,
   },
-  {
-    path: 'signup',
-    component: SignupComponent,
-  },
+  // {
+  //   path: 'signup',
+  //   component: SignupComponent,
+  // },
   {
     path: '',
     redirectTo: 'dashboard',

@@ -22,10 +22,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-alert',
     link: '/pages/extra-components/alert',
   },
-  {
-    title: 'FEATURES',
-    group: true,
-  },
+  // {
+  //   title: 'FEATURES',
+  //   group: true,
+  // },
   // YOU CAN USE THIS FOR TASK TWO IF YOU LIKE!!
   // {
   //   title: 'Extra Components',
