@@ -1,24 +1,5 @@
-## We Are Hiring!!:
-Thank you for visiting our application repo for an angular developer! We will make this repo private once the position has been filled. So if you are here, we are hiring! 
-
-More detailed instructions are below along with the discription.
-
-## Position:
-Front End Developer / Angular Developer
- 
-## Salary Grade:
-Jr – Mid Level Developer
- 
-## Location:
-Boise, ID or Omaha, NE
- 
-## Reports to:
-Director Software Engineering – Rob Stadnick
- 
-## Date Available
-Immediate
- 
-## JOB DESCRIPTION:
+## Angular Developer Project:
+A project to test knoledge or ability to learn angular to accomplish various tasks.
  
 Summary/Objective:
 We a seeking a Front-End Developer to join our team in the continued development of multiple Angular 7+ applications. This position will invite qualified candidates to take ownership in the design, features, and branding of these applications.
@@ -56,19 +37,6 @@ You will be provide with a machine and workstation. You will be able to select b
  
 Position can allow for flexible remote/office.
  
-## Physical Demands:
-The physical demands described here are representative of those that must
-be met by an employee to successfully perform the essential functions of
-this job.
- 
-While performing the duties of this job, the employee is regularly required to
-talk or hear. The employee frequently is required to stand; walk; use hands
-to finger, handle or feel; and reach with hands and arms.
- 
-Position Type/Expected Hours of Work:
-We are currently hiring full-time positions. Days and hours of work are Monday through
-Friday with flexible project hours.
- 
 ## Required Education and Experience In Order of Importance:
  
 1.     Understanding of application basics. (Front, Back, Database)
@@ -89,18 +57,26 @@ Set one is to follow this link <INSERT THE LINK> to fill out our formal applicat
 4.     Read the instructions and complete the three tasks. *in progress*
 5.     Update your repo and email us with a link to the repo once you are satisfied with your work!
 
-## possible resources - found
+## Found Resources 
 1. http://jasonwatmore.com/post/2018/11/16/angular-7-jwt-authentication-example-tutorial
 2. https://medium.com/@MetonymyQT/angular-http-interceptors-what-are-they-and-how-to-use-them-52e060321088
-3. 
+3. udemy - maxamillion videos angular 7
+4. angular docs https://angular.io/docs
 
 ## Tasks
-1. Task One! Interceptor – Using this ['src/app/@core/auth'] path, create an interceptor that injects a fake JWT. 
-2. Task Two! Menu/Module/Component – Dig through the app folders to find the menu. Add a new menu item.
-Create a module, add it to routing. Create a component and put anything you like there! Impress us with the use of Pipes, Services, and other Angular Framework tools. Testing too please! We are looking for design skills so show off those styles.
-3. Task Three!
-Clean Up
-1. Reorganize and clear up this application for production.
-2. Start by renaming "e-commerce" to dashboard.
+**Task One!**
+Interceptor – Using this ['src/app/@core/auth'] path, create an interceptor that injects a fake JWT. 
+
+**Task Two! Menu/Module/Component** 
+1. Dig through the app folders to find the menu. *done*
+2. Add a new menu item. *done*
+3. Create a module, add it to routing. 
+4. Create a component and put anything you like there! Impress us with the use of Pipes, Services, and other Angular Framework tools. 
+5. Testing too please! 
+6. We are looking for design skills so show off those styles.
+
+**Task Three! Clean Up**
+1. Reorganize and clear up this application for production. *in progress*
+2. Start by renaming "e-commerce" to dashboard. *done*
 3. Our team allows you to take ownership of your application and work. Show us how you make your application neat and scalable.
 
