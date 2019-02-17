@@ -7,6 +7,8 @@ import { of as observableOf } from 'rxjs';
 import { throwIfAlreadyLoaded } from './module-import-guard';
 import { DataModule } from './data/data.module';
 import { AnalyticsService } from './utils/analytics.service';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor} from '../@core/auth/auth.interceptor';
 
 const socialLinks = [
   {
@@ -80,7 +82,11 @@ export const NB_CORE_PROVIDERS = [
   exports: [
     NbAuthModule,
   ],
-  declarations: [],
+  declarations: [
+  ],
+  providers: [
+  {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true}
+  ],
 })
 export class CoreModule {
   constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
