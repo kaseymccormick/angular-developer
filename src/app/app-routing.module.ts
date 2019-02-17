@@ -8,6 +8,7 @@ import {
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
 } from '@nebular/auth';
+import { SignupComponent } from './auth/signup/signup.component';
 
 const routes: Routes = [
   { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
@@ -38,6 +39,10 @@ const routes: Routes = [
       {
         path: 'reset-password',
         component: NbResetPasswordComponent,
+      },
+      {
+        path: 'signup',
+        component: SignupComponent,
       },
     ],
   },
