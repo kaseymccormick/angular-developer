@@ -17,11 +17,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-layout-centre',
     link: '/pages/extra-components/calendar',
   },
-  {
-    title: 'Alert',
-    icon: 'nb-alert',
-    link: '/pages/extra-components/alert',
-  },
   // {
   //   title: 'FEATURES',
   //   group: true,
