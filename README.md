@@ -65,8 +65,8 @@ Set one is to follow this link <INSERT THE LINK> to fill out our formal applicat
 
 ## Tasks
 **Task One!**
-1. Interceptor – Using this ['src/app/@core/auth'] path, create an interceptor 
-1. (a) that injects a fake JWT. 
+1. Interceptor – Using this ['src/app/@core/auth'] path, create an interceptor **done**
+1. (a) that injects a fake JWT. *blocked*
 
 **Task Two! Menu/Module/Component** 
 1. Dig through the app folders to find the menu. *done*
