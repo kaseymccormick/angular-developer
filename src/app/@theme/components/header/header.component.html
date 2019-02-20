@@ -5,7 +5,7 @@
 </div>
 
 <div class="header-container">
-  <nb-actions size="medium" [class.right]="position === 'normal'" [class.left]="position === 'inverse'">
+  <!-- <nb-actions size="medium" [class.right]="position === 'normal'" [class.left]="position === 'inverse'">
     <nb=action *nbIsGranted="['view', 'user']">
     <nb-action>
       <nb-user size="large"
@@ -17,5 +17,6 @@
     </nb-action>
     <nb-action *ngIf="notificationMenu" [badgeText]="notifications" badgeStatus="info" [nbContextMenu]="notificationMenu"
       nbContextMenuTag="notification-header" class="control-item" icon="nb-notifications"></nb-action>    
-  </nb-actions>
+  </nb-actions> -->
+  <a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>
 </div>

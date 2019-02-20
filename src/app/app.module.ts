@@ -15,6 +15,7 @@ import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor} from './@core/auth/auth.interceptor';
+// import { FontAwesomeModule } from '@fortawesome/fontawesome-free';
 
 @NgModule({
   declarations: [AppComponent],
@@ -23,6 +24,7 @@ import { AuthInterceptor} from './@core/auth/auth.interceptor';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
+    // FontAwesomeModule,
 
     NgbModule.forRoot(),
     ThemeModule.forRoot(),
