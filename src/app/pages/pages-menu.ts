@@ -13,10 +13,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/charts',
   },
   {
-    title: 'Calendar',
-    icon: 'nb-layout-centre',
-    link: '/pages/extra-components/calendar',
+    title: 'Clients',
+    icon: 'nb-list',
+    link: '/pages/clients',
   },
+  {
+    title: 'other',
+    icon: 'nb-circle',
+    link: '/pages/circle',
+  },
+  // {
+  //   title: 'Calendar',
+  //   icon: 'nb-layout-centre',
+  //   link: '/pages/extra-components/calendar',
+  // },
   // {
   //   title: 'FEATURES',
   //   group: true,

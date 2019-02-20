@@ -7,6 +7,7 @@ import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { ECommerceChartsPanelComponent } from './e-commerce/charts-panel/charts-panel.component';
 import { NbCalendarComponent } from '@nebular/theme';
+import { ECommerceLegendChartComponent } from './e-commerce/legend-chart/legend-chart.component';
 
 const routes: Routes = [{
   path: '',
@@ -18,6 +19,10 @@ const routes: Routes = [{
   {
     path: 'charts',
     component: ECommerceChartsPanelComponent,
+  },
+  {
+    path: 'clients',
+    component: ECommerceLegendChartComponent,
   },
   {
     path: 'miscellaneous',
