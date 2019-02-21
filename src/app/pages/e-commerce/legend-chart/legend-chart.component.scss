@@ -1,50 +1,24 @@
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
+.accent-success{
+  border-top-color:purple !important;
 }
 
-$pad: 20px;
-
-.grid {
-  background: white;
-  margin: 0 0 $pad 0;
-  
-  &:after {
-    /* Or @extend clearfix */
-    content: "";
-    display: table;
-    clear: both;
-  }
+.no-style{
+  list-style-type: none;
+  padding: 0 !important;
+  margin: 0;
 }
 
-[class*='col-'] {
-  float: left;
-  padding-right: $pad;
-  .grid &:last-of-type {
-    padding-right: 0;
-  }
-}
-.col-2-3 {
-  width: 66.66%;
-}
-.col-1-3 {
-  width: 33.33%;
-}
-.col-1-2 {
-  width: 50%;
-}
-.col-1-4 {
-  width: 25%;
-}
-.col-1-8 {
-  width: 12.5%;
-}
-
-/* Opt-in outside padding */
-.grid-pad {
-  padding: $pad 0 $pad $pad;
-  [class*='col-']:last-of-type {
-    padding-right: $pad;
-  }
+.nb-theme-default [nbButton] {
+  color: #000000 !important;
+  // font-weight: 500;
+  // font-family: Poppins;
+  // cursor: default;
+  // padding: 0.75rem 1.5rem;
+  // font-size: 1rem;
+  // line-height: 1.25;
+  // border-radius: 0.375rem;
+  background-color: #eaeaea !important;
+  width: 90% !important;
+  margin: 0px auto !important;
 }
